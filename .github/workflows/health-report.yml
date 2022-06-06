@@ -15,7 +15,8 @@ jobs:
       matrix:
         include:
           - username: ZJU_USERNAME
-            password: ZJU_PASSWORD
+            #password: ZJU_PASSWORD
+            password: ZJU_COOKIE
             dingtalk_token: DINGTALK_TOKEN
     steps:
       - name: 打卡
